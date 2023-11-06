@@ -1,0 +1,70 @@
+{
+    "players": [
+        {
+            "name": "LuftyTheAIrBorn",
+            "teamId": 100,
+            "rank": "GOLD",
+            "winrate": 50.48
+        },
+        {
+            "name": "spaerattore",
+            "teamId": 100,
+            "rank": "DIAMOND",
+            "winrate": 46.04
+        },
+        {
+            "name": "W\u00eckstr\u00f6m",
+            "teamId": 100,
+            "rank": "PLATINUM",
+            "winrate": 49.31
+        },
+        {
+            "name": "goraklol",
+            "teamId": 100,
+            "rank": "DIAMOND",
+            "winrate": 44.74
+        },
+        {
+            "name": "KoXeZ",
+            "teamId": 100,
+            "rank": "DIAMOND",
+            "winrate": 52.27
+        },
+        {
+            "name": "broCxi",
+            "teamId": 200,
+            "rank": "DIAMOND",
+            "winrate": 50.71
+        },
+        {
+            "name": "Rootls99",
+            "teamId": 200,
+            "rank": "DIAMOND",
+            "winrate": 51.69
+        },
+        {
+            "name": "Ararma",
+            "teamId": 200,
+            "rank": "DIAMOND",
+            "winrate": 48.04
+        },
+        {
+            "name": "Swishee",
+            "teamId": 200,
+            "rank": "DIAMOND",
+            "winrate": 48.37
+        },
+        {
+            "name": "Monk Lano",
+            "teamId": 200,
+            "rank": "DIAMOND",
+            "winrate": 50.58
+        }
+    ],
+    "team_100_avg_winrate": 48.57,
+    "team_200_avg_winrate": 49.88,
+    "team_chances": {
+        "team_100": 49.33,
+        "team_200": 50.67
+    }
+}
