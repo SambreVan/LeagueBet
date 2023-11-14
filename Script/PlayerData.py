@@ -4,10 +4,10 @@ import json
 import os
 
 # Votre clé d'API personnelle de Riot Games
-api_key = 'RGAPI-4188fb6a-e6db-454b-8b26-8bb3fa221877'
+api_key = 'RGAPI-4413a60d-9d1d-47a7-ad3c-d84da47e46fe'
 
 # Le nom d'utilisateur du joueur, encodé pour être utilisé dans une URL
-summoner_name = 'EgirlSeeker DmMe'
+summoner_name = 'TBW Bboy'
 encoded_summoner_name = quote(summoner_name)
 
 # L'URL de base pour l'API de la région EUW

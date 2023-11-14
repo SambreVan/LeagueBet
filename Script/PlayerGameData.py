@@ -1,8 +1,8 @@
 import requests
 import json
 
-API_KEY = 'RGAPI-4188fb6a-e6db-454b-8b26-8bb3fa221877'
-PLAYER_NAME = 'Swishee'
+API_KEY = 'RGAPI-8626f8fe-2f63-4e6d-98f4-245b8dd1d3e4'
+PLAYER_NAME = 'tbw bboy'
 REGION = 'euw1'
 
 def get_player_id(player_name):
@@ -75,7 +75,7 @@ def get_game_players_info():
 
     return game_data
 
-def save_data_to_json(data, filename='game_data.json'):
+def save_data_to_json(data, filename='winrate_team_data.json'):
     with open(filename, 'w') as file:
         json.dump(data, file, indent=4)
 

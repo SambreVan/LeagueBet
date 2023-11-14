@@ -2,7 +2,7 @@ import json
 import matplotlib.pyplot as plt
 
 # Reading data from 'game_data.json'
-with open('game_data.json', 'r') as file:
+with open('../Script/game_data.json', 'r') as file:
     data = json.load(file)
 
 # Extracting average winrate for each team
