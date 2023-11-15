@@ -1,6 +1,7 @@
 import os
 import requests
 
+
 def get_all_versions(url):
     response = requests.get(url)
     if response.status_code == 200:
@@ -8,6 +9,7 @@ def get_all_versions(url):
     else:
         print("Erreur lors de la récupération des versions disponibles")
         return []
+
 
 def telecharger_et_extraire_noms_champions(base_url):
     response = requests.get(base_url + "champion.json")
@@ -21,12 +23,17 @@ def telecharger_et_extraire_noms_champions(base_url):
         list_noms = list(data_section.keys())
         return list_noms
     else:
-        print("Erreur lors du téléchargement du fichier de liste des champions : Error", response.status_code)
+        print(
+            "Erreur lors du téléchargement du fichier de liste des champions : Error",
+            response.status_code,
+        )
         exit()
+
 
 def lire_noms_champions(list_noms):
     with open(list_noms, "r") as fichier:
         return [ligne.strip() for ligne in fichier]
+
 
 def telecharger_json(url, nom_fichier):
     reponse = requests.get(url)
@@ -35,6 +42,7 @@ def telecharger_json(url, nom_fichier):
             fichier.write(reponse.text)
     else:
         print(f"Échec du téléchargement depuis {url}")
+
 
 def main():
     versions_url = "https://ddragon.leagueoflegends.com/api/versions.json"
@@ -47,7 +55,9 @@ def main():
     latest_version = available_versions[0]
 
     while True:
-        version = input(f"Veuillez entrer la version désirée (Dernière version: {latest_version}) : ")
+        version = input(
+            f"Veuillez entrer la version désirée (Dernière version: {latest_version}) : "
+        )
         version = version if version else latest_version
 
         if version in available_versions:
@@ -71,6 +81,7 @@ def main():
         nom_fichier = os.path.join("Json/" + version, f"{nom}.json")
         telecharger_json(url_complet, nom_fichier)
         print(f"Téléchargé : {nom_fichier}")
+
 
 if __name__ == "__main__":
     main()

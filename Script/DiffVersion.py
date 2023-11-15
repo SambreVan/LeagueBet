@@ -2,27 +2,32 @@ from deepdiff import DeepDiff
 import json
 import os
 
+
 def charger_json(fichier):
-    with open(fichier, 'r') as f:
+    with open(fichier, "r") as f:
         return json.load(f)
 
-def afficher_differences(diff):
-    # Retourne True s'il y a des changements significatifs
-    if not diff:
-        return False
 
+def afficher_differences(diff):
     for type_diff, details in diff.items():
-        if type_diff == 'values_changed' and len(details) == 1 and "root['version']" in details:
-            return False
-    return True
+        for chemin in details:
+            if (
+                "root['version']" in chemin
+                or "['lore']" in chemin
+                or "['blurb']" in chemin
+                or "['skins']" in chemin
+            ):
+                continue
+            return True
+    return False
+
 
 def comparer_versions(dossier1, dossier2):
-    # Lister tous les fichiers dans les deux dossiers
-    fichiers1 = {f for f in os.listdir(dossier1) if f.endswith('.json')}
-    fichiers2 = {f for f in os.listdir(dossier2) if f.endswith('.json')}
-
-    # Comparer seulement les fichiers qui existent dans les deux dossiers
+    fichiers1 = {f for f in os.listdir(dossier1) if f.endswith(".json")}
+    fichiers2 = {f for f in os.listdir(dossier2) if f.endswith(".json")}
     fichiers_communs = fichiers1.intersection(fichiers2)
+
+    nbr_changements = 0
 
     for fichier in fichiers_communs:
         chemin1 = os.path.join(dossier1, fichier)
@@ -34,10 +39,17 @@ def comparer_versions(dossier1, dossier2):
         differences = DeepDiff(json1, json2, ignore_order=True)
 
         if afficher_differences(differences):
+            nbr_changements += 1
             print(f"Des changements significatifs ont été réalisés dans {fichier}")
 
-# Exemple d'utilisation
-dossier1 = 'Json/13.21.1'
-dossier2 = 'Json/13.22.1'
+    return nbr_changements
 
-comparer_versions(dossier1, dossier2)
+
+# Exemple d'utilisation
+dossier1 = "Json/13.21.1"
+dossier2 = "Json/13.22.1"
+
+nombre_de_changements = comparer_versions(dossier1, dossier2)
+print(
+    f"Nombre total de fichiers avec changements significatifs : {nombre_de_changements}"
+)
