@@ -47,7 +47,7 @@ def afficher_differences(diff):
 
 
 # Exemple d'utilisation
-nom = "Brand"
+nom = "Jinx"
 fichier1 = "Json/13.21.1/" + nom + ".json"
 fichier2 = "Json/13.22.1/" + nom + ".json"
 

@@ -65,7 +65,7 @@ def main():
         else:
             print(f"Version '{version}' non disponible. Veuillez essayer à nouveau.")
 
-    base_url = "https://ddragon.leagueoflegends.com/cdn/" + version + "/data/fr_FR/"
+    base_url = "https://ddragon.leagueoflegends.com/cdn/" + version + "/data/en_US/"
 
     # Créer le dossier 'Json' s'il n'existe pas
     if not os.path.exists("Json"):

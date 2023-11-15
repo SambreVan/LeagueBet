@@ -46,8 +46,8 @@ def comparer_versions(dossier1, dossier2):
 
 
 # Exemple d'utilisation
-dossier1 = "Json/13.21.1"
-dossier2 = "Json/13.22.1"
+dossier1 = "Json/8.10.1"
+dossier2 = "Json/8.11.1"
 
 nombre_de_changements = comparer_versions(dossier1, dossier2)
 print(
