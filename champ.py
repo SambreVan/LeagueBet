@@ -1,7 +1,11 @@
 import os
+import json
 import requests
 
+version = "12.1.1"
 
+
+# Fonction pour télécharger le fichier JSON
 def telecharger_json(url, nom_fichier):
     reponse = requests.get(url)
     if reponse.status_code == 200:
@@ -11,9 +15,21 @@ def telecharger_json(url, nom_fichier):
         print(f"Échec du téléchargement depuis {url}")
 
 
-nom_fichier = os.path.join("Json/" + "champ.json")
-telecharger_json(
-    "https://cdn.merakianalytics.com/riot/lol/resources/latest/en-US/champions.json",
-    nom_fichier,
-)
+# Télécharger le fichier JSON
+source = "https://cdn.merakianalytics.com/riot/lol/resources/old/en-US/1699086641_champions.json"
+os.makedirs("Json/" + version + "/data/en_US/champion", exist_ok=True)
+nom_fichier = os.path.join("Json/" + version + "/data/en_US/", "champions.json")
+telecharger_json(source, nom_fichier)
 print(f"Téléchargé : {nom_fichier}")
+
+# Lire le fichier JSON et créer un fichier par champion
+with open(nom_fichier, "r", encoding="utf-8") as fichier:
+    champions = json.load(fichier)
+
+# Créer un fichier pour chaque champion
+for champ, details in champions.items():
+    nom_fichier_champion = os.path.join(
+        "Json/" + version + "/data/en_US/champion", f"{champ}.json"
+    )
+    with open(nom_fichier_champion, "w", encoding="utf-8") as fichier_champ:
+        json.dump(details, fichier_champ, ensure_ascii=False, indent=4)
