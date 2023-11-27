@@ -9,7 +9,7 @@ def tronquer_ligne(ligne):
 
 
 def charger_json(fichier):
-    with open(fichier, "r") as f:
+    with open(fichier, "r", encoding="utf-8") as f:
         return json.load(f)
 
 
@@ -47,9 +47,9 @@ def afficher_differences(diff):
 
 
 # Exemple d'utilisation
-nom = "Jinx"
-fichier1 = "Json/13.21.1/" + nom + ".json"
-fichier2 = "Json/13.22.1/" + nom + ".json"
+nom = "Garen"
+fichier1 = "Json/13.22.1/" + nom + ".json"
+fichier2 = "Json/13.23.1/" + nom + ".json"
 
 json1 = charger_json(fichier1)
 json2 = charger_json(fichier2)
