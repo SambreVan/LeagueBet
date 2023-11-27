@@ -78,12 +78,10 @@ def main():
     if not os.path.exists("Json/" + version):
         os.makedirs("Json/" + version)
 
-    if not os.path.exists("Json/" + version + "/champion"):
-        os.makedirs("Json/" + version + "/champion")
 
     for nom in noms_champions:
         url_complet = base_url_champ + "champion/" + nom + ".json"
-        nom_fichier = os.path.join("Json/" + version + "/champion", f"{nom}.json")
+        nom_fichier = os.path.join("Json/" + version , f"{nom}.json")
         telecharger_json(url_complet, nom_fichier)
         print(f"Téléchargé : {nom_fichier}")
 
