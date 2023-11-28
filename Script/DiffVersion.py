@@ -2,19 +2,25 @@ from deepdiff import DeepDiff
 import json
 import os
 
+
 def charger_json(fichier):
     with open(fichier, "r", encoding="utf-8") as f:
         return json.load(f)
 
+
 def afficher_differences(diff):
+    # Liste des clés à ignorer
+
     for type_diff, details in diff.items():
         for chemin in details:
-            if  (
-                "root['patchLastChanged']" in chemin
-                ):
+            # Condition supplémentaire pour "root['patchLastChanged']"
+            if not "root['patchLastChanged']" in chemin:
                 continue
-            return True
-    return False
+
+            return True  # Un changement significatif a été trouvé
+
+    return False  # Aucun changement significatif trouvé
+
 
 def comparer_versions(dossier1, dossier2):
     fichiers1 = {f for f in os.listdir(dossier1) if f.endswith(".json")}
@@ -38,9 +44,12 @@ def comparer_versions(dossier1, dossier2):
 
     return nbr_changements
 
+
 # Exemple d'utilisation
 dossier1 = "Json/13.22.1"
 dossier2 = "Json/13.23.1"
 
 nombre_de_changements = comparer_versions(dossier1, dossier2)
-print(f"Nombre total de fichiers avec changements significatifs : {nombre_de_changements}")
+print(
+    f"Nombre total de fichiers avec changements significatifs : {nombre_de_changements}"
+)
