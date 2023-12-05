@@ -9,17 +9,26 @@ def charger_json(fichier):
 
 
 def afficher_differences(diff):
-    # Liste des clés à ignorer
+    cles_interessees = ["root['abilities']", "root['stats']"]
+    changement_cles_interessees = False
+    changement_patchLastChanged = False
 
     for type_diff, details in diff.items():
         for chemin in details:
-            # Condition supplémentaire pour "root['patchLastChanged']"
-            if not "root['patchLastChanged']" in chemin:
+            # Exclut les changements dans les entrées "notes" de 'root['abilities']'
+            if "['notes']" in chemin and "root['abilities']" in chemin:
                 continue
 
-            return True  # Un changement significatif a été trouvé
+            # Vérifie si le changement est dans 'root['abilities']' ou 'root['stats']'
+            if any(cle in chemin for cle in cles_interessees):
+                changement_cles_interessees = True
 
-    return False  # Aucun changement significatif trouvé
+            # Vérifie si le changement est dans 'root['patchLastChanged']'
+            if "root['patchLastChanged']" in chemin:
+                changement_patchLastChanged = True
+
+    # Retourne True seulement si les deux conditions sont remplies
+    return changement_cles_interessees and changement_patchLastChanged
 
 
 def comparer_versions(dossier1, dossier2):
