@@ -23,9 +23,9 @@ def afficher_differences(diff):
             if any(cle in chemin for cle in cles_interessees):
                 changement_cles_interessees = True
 
-            # Vérifie si le changement est dans 'root['patchLastChanged']'
-            if "root['patchLastChanged']" in chemin:
-                changement_patchLastChanged = True
+            #   Vérifie si le changement est dans 'root['patchLastChanged']'
+            # if "root['patchLastChanged']" in chemin:
+            #     changement_patchLastChanged = True
 
     # Retourne True seulement si les deux conditions sont remplies
     return changement_cles_interessees and changement_patchLastChanged

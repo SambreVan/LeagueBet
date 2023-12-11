@@ -47,14 +47,13 @@ def afficher_differences(diff):
 
 
 # Exemple d'utilisation
-nom = "Draven"
-fichier1 = "Json/13.22.1/" + nom + ".json"
-fichier2 = "Json/13.23.1/" + nom + ".json"
+nom = "Neeko"
+fichier1 = "Json/13.21.1/" + nom + ".json"
+fichier2 = "Json/13.22.1/" + nom + ".json"
 
 json1 = charger_json(fichier1)
 json2 = charger_json(fichier2)
 
 differences = DeepDiff(json1, json2, ignore_order=True)
-print()
 afficher_differences(differences)
 print()
