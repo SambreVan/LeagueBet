@@ -2,8 +2,11 @@ import os
 import json
 import requests
 
-version = "13.1.1"
-source = "https://cdn.merakianalytics.com/riot/lol/resources/old/en-US/1700987404_champions.json"
+version = "13.24.1"
+source = (
+    "https://cdn.merakianalytics.com/riot/lol/resources/latest/en-US/champions.json"
+)
+
 
 # Fonction pour télécharger le fichier JSON
 def telecharger_json(url, nom_fichier):

@@ -3,12 +3,12 @@
     "1": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
-      "MIDDLE": { "playRate": 0.596 },
+      "MIDDLE": { "playRate": 0.625 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "2": {
-      "TOP": { "playRate": 1.119 },
+      "TOP": { "playRate": 1.086 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
@@ -17,26 +17,26 @@
     "3": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
-      "MIDDLE": { "playRate": 0.668 },
+      "MIDDLE": { "playRate": 0.659 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "4": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
-      "MIDDLE": { "playRate": 1.541 },
+      "MIDDLE": { "playRate": 2.017 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "5": {
       "TOP": { "playRate": 0 },
-      "JUNGLE": { "playRate": 0.897 },
+      "JUNGLE": { "playRate": 0.936 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "6": {
-      "TOP": { "playRate": 0.923 },
+      "TOP": { "playRate": 1.017 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
@@ -45,26 +45,26 @@
     "7": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
-      "MIDDLE": { "playRate": 1.588 },
+      "MIDDLE": { "playRate": 1.72 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "8": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
-      "MIDDLE": { "playRate": 1.635 },
+      "MIDDLE": { "playRate": 1.676 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "9": {
       "TOP": { "playRate": 0 },
-      "JUNGLE": { "playRate": 1.895 },
+      "JUNGLE": { "playRate": 1.607 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "10": {
-      "TOP": { "playRate": 1.476 },
+      "TOP": { "playRate": 1.506 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
@@ -72,7 +72,7 @@
     },
     "11": {
       "TOP": { "playRate": 0 },
-      "JUNGLE": { "playRate": 2.817 },
+      "JUNGLE": { "playRate": 2.723 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
@@ -82,17 +82,17 @@
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
-      "UTILITY": { "playRate": 3.118 }
+      "UTILITY": { "playRate": 2.319 }
     },
     "13": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
-      "MIDDLE": { "playRate": 0.854 },
+      "MIDDLE": { "playRate": 0.883 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "14": {
-      "TOP": { "playRate": 1.8 },
+      "TOP": { "playRate": 1.833 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
@@ -102,7 +102,7 @@
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
-      "BOTTOM": { "playRate": 2.151 },
+      "BOTTOM": { "playRate": 1.991 },
       "UTILITY": { "playRate": 0 }
     },
     "16": {
@@ -110,10 +110,10 @@
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
-      "UTILITY": { "playRate": 2.688 }
+      "UTILITY": { "playRate": 2.566 }
     },
     "17": {
-      "TOP": { "playRate": 1.774 },
+      "TOP": { "playRate": 1.487 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
@@ -122,20 +122,20 @@
     "18": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
-      "MIDDLE": { "playRate": 1.292 },
-      "BOTTOM": { "playRate": 2.195 },
+      "MIDDLE": { "playRate": 0 },
+      "BOTTOM": { "playRate": 1.974 },
       "UTILITY": { "playRate": 0 }
     },
     "19": {
       "TOP": { "playRate": 0 },
-      "JUNGLE": { "playRate": 1.275 },
+      "JUNGLE": { "playRate": 1.17 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "20": {
       "TOP": { "playRate": 0 },
-      "JUNGLE": { "playRate": 1.448 },
+      "JUNGLE": { "playRate": 1.379 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
@@ -144,25 +144,25 @@
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
-      "BOTTOM": { "playRate": 3.589 },
+      "BOTTOM": { "playRate": 3.654 },
       "UTILITY": { "playRate": 0 }
     },
     "22": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
-      "BOTTOM": { "playRate": 5.015 },
-      "UTILITY": { "playRate": 0 }
+      "BOTTOM": { "playRate": 5.046 },
+      "UTILITY": { "playRate": 2.404 }
     },
     "23": {
-      "TOP": { "playRate": 1.398 },
+      "TOP": { "playRate": 1.29 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "24": {
-      "TOP": { "playRate": 5.057 },
+      "TOP": { "playRate": 4.753 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
@@ -173,17 +173,17 @@
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
-      "UTILITY": { "playRate": 2.99 }
+      "UTILITY": { "playRate": 2.827 }
     },
     "26": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
-      "UTILITY": { "playRate": 1.08 }
+      "UTILITY": { "playRate": 1.172 }
     },
     "27": {
-      "TOP": { "playRate": 0.822 },
+      "TOP": { "playRate": 0.922 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
@@ -191,7 +191,7 @@
     },
     "28": {
       "TOP": { "playRate": 0 },
-      "JUNGLE": { "playRate": 2.143 },
+      "JUNGLE": { "playRate": 2.017 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
@@ -200,18 +200,18 @@
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
-      "BOTTOM": { "playRate": 2.195 },
+      "BOTTOM": { "playRate": 2.485 },
       "UTILITY": { "playRate": 0 }
     },
     "30": {
       "TOP": { "playRate": 0 },
-      "JUNGLE": { "playRate": 1.381 },
+      "JUNGLE": { "playRate": 1.207 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "31": {
-      "TOP": { "playRate": 1.093 },
+      "TOP": { "playRate": 0.97 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
@@ -219,14 +219,14 @@
     },
     "32": {
       "TOP": { "playRate": 0 },
-      "JUNGLE": { "playRate": 1.328 },
+      "JUNGLE": { "playRate": 1.228 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "33": {
       "TOP": { "playRate": 0 },
-      "JUNGLE": { "playRate": 1.952 },
+      "JUNGLE": { "playRate": 1.438 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
@@ -234,19 +234,19 @@
     "34": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
-      "MIDDLE": { "playRate": 0.861 },
+      "MIDDLE": { "playRate": 0.915 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "35": {
       "TOP": { "playRate": 0 },
-      "JUNGLE": { "playRate": 2.708 },
+      "JUNGLE": { "playRate": 2.739 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
-      "UTILITY": { "playRate": 1.08 }
+      "UTILITY": { "playRate": 0 }
     },
     "36": {
-      "TOP": { "playRate": 1.456 },
+      "TOP": { "playRate": 1.024 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
@@ -257,19 +257,19 @@
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
-      "UTILITY": { "playRate": 1.102 }
+      "UTILITY": { "playRate": 1.086 }
     },
     "38": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
-      "MIDDLE": { "playRate": 2.07 },
+      "MIDDLE": { "playRate": 1.375 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "39": {
-      "TOP": { "playRate": 1.805 },
+      "TOP": { "playRate": 1.955 },
       "JUNGLE": { "playRate": 0 },
-      "MIDDLE": { "playRate": 1.754 },
+      "MIDDLE": { "playRate": 1.768 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
@@ -278,10 +278,10 @@
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
-      "UTILITY": { "playRate": 1.526 }
+      "UTILITY": { "playRate": 2.611 }
     },
     "41": {
-      "TOP": { "playRate": 2.539 },
+      "TOP": { "playRate": 2.024 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
@@ -290,7 +290,7 @@
     "42": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
-      "MIDDLE": { "playRate": 0.357 },
+      "MIDDLE": { "playRate": 0.363 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
@@ -299,25 +299,25 @@
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
-      "UTILITY": { "playRate": 2.705 }
+      "UTILITY": { "playRate": 2.667 }
     },
     "44": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
-      "UTILITY": { "playRate": 0.726 }
+      "UTILITY": { "playRate": 0.67 }
     },
     "45": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
-      "MIDDLE": { "playRate": 1.863 },
+      "MIDDLE": { "playRate": 1.969 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "48": {
-      "TOP": { "playRate": 0.552 },
-      "JUNGLE": { "playRate": 0.572 },
+      "TOP": { "playRate": 1.458 },
+      "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
@@ -327,13 +327,13 @@
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
-      "UTILITY": { "playRate": 1.737 }
+      "UTILITY": { "playRate": 1.585 }
     },
     "51": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
-      "BOTTOM": { "playRate": 8.273 },
+      "BOTTOM": { "playRate": 8.01 },
       "UTILITY": { "playRate": 0 }
     },
     "53": {
@@ -341,10 +341,10 @@
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
-      "UTILITY": { "playRate": 4.466 }
+      "UTILITY": { "playRate": 4.077 }
     },
     "54": {
-      "TOP": { "playRate": 2.604 },
+      "TOP": { "playRate": 2.567 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
@@ -353,26 +353,26 @@
     "55": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
-      "MIDDLE": { "playRate": 2.937 },
+      "MIDDLE": { "playRate": 2.953 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "56": {
       "TOP": { "playRate": 0 },
-      "JUNGLE": { "playRate": 2.99 },
+      "JUNGLE": { "playRate": 4.093 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "57": {
       "TOP": { "playRate": 0 },
-      "JUNGLE": { "playRate": 2.381 },
+      "JUNGLE": { "playRate": 1.718 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "58": {
-      "TOP": { "playRate": 3.334 },
+      "TOP": { "playRate": 2.707 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
@@ -380,14 +380,14 @@
     },
     "59": {
       "TOP": { "playRate": 0 },
-      "JUNGLE": { "playRate": 5.109 },
+      "JUNGLE": { "playRate": 4.965 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "60": {
       "TOP": { "playRate": 0 },
-      "JUNGLE": { "playRate": 1.07 },
+      "JUNGLE": { "playRate": 0.977 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
@@ -395,13 +395,13 @@
     "61": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
-      "MIDDLE": { "playRate": 5.572 },
+      "MIDDLE": { "playRate": 6.707 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "62": {
       "TOP": { "playRate": 0 },
-      "JUNGLE": { "playRate": 0.845 },
+      "JUNGLE": { "playRate": 0.96 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
@@ -411,11 +411,11 @@
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
-      "UTILITY": { "playRate": 1.761 }
+      "UTILITY": { "playRate": 1.755 }
     },
     "64": {
       "TOP": { "playRate": 0 },
-      "JUNGLE": { "playRate": 7.892 },
+      "JUNGLE": { "playRate": 8.485 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
@@ -424,11 +424,11 @@
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
-      "BOTTOM": { "playRate": 4.924 },
+      "BOTTOM": { "playRate": 5.397 },
       "UTILITY": { "playRate": 0 }
     },
     "68": {
-      "TOP": { "playRate": 1.546 },
+      "TOP": { "playRate": 1.487 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
@@ -437,13 +437,13 @@
     "69": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
-      "MIDDLE": { "playRate": 0.843 },
+      "MIDDLE": { "playRate": 0.756 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "72": {
       "TOP": { "playRate": 0 },
-      "JUNGLE": { "playRate": 0.44 },
+      "JUNGLE": { "playRate": 0.335 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
@@ -453,10 +453,10 @@
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
-      "UTILITY": { "playRate": 0.53 }
+      "UTILITY": { "playRate": 0.549 }
     },
     "75": {
-      "TOP": { "playRate": 2.344 },
+      "TOP": { "playRate": 2.294 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
@@ -464,76 +464,76 @@
     },
     "76": {
       "TOP": { "playRate": 0 },
-      "JUNGLE": { "playRate": 2.031 },
+      "JUNGLE": { "playRate": 1.751 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "77": {
       "TOP": { "playRate": 0 },
-      "JUNGLE": { "playRate": 1.207 },
+      "JUNGLE": { "playRate": 1.095 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "78": {
       "TOP": { "playRate": 0 },
-      "JUNGLE": { "playRate": 1.243 },
+      "JUNGLE": { "playRate": 1.55 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "79": {
       "TOP": { "playRate": 0 },
-      "JUNGLE": { "playRate": 1.334 },
+      "JUNGLE": { "playRate": 1.382 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "80": {
-      "TOP": { "playRate": 1.097 },
+      "TOP": { "playRate": 1.188 },
       "JUNGLE": { "playRate": 0 },
-      "MIDDLE": { "playRate": 1.011 },
+      "MIDDLE": { "playRate": 0.968 },
       "BOTTOM": { "playRate": 0 },
-      "UTILITY": { "playRate": 1.055 }
+      "UTILITY": { "playRate": 0.951 }
     },
     "81": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
-      "BOTTOM": { "playRate": 10.277 },
+      "BOTTOM": { "playRate": 10.561 },
       "UTILITY": { "playRate": 0 }
     },
     "82": {
-      "TOP": { "playRate": 2.089 },
+      "TOP": { "playRate": 1.871 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "83": {
-      "TOP": { "playRate": 1.185 },
+      "TOP": { "playRate": 1.228 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "84": {
-      "TOP": { "playRate": 1.551 },
+      "TOP": { "playRate": 1.504 },
       "JUNGLE": { "playRate": 0 },
-      "MIDDLE": { "playRate": 4.499 },
+      "MIDDLE": { "playRate": 4.787 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "85": {
-      "TOP": { "playRate": 0.836 },
+      "TOP": { "playRate": 0.751 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "86": {
-      "TOP": { "playRate": 5.234 },
+      "TOP": { "playRate": 3.595 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
@@ -544,24 +544,24 @@
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
-      "UTILITY": { "playRate": 2.365 }
+      "UTILITY": { "playRate": 2.243 }
     },
     "90": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
-      "MIDDLE": { "playRate": 1.744 },
+      "MIDDLE": { "playRate": 1.799 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "91": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
-      "MIDDLE": { "playRate": 1.68 },
+      "MIDDLE": { "playRate": 1.608 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "92": {
-      "TOP": { "playRate": 1.923 },
+      "TOP": { "playRate": 2.74 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
@@ -571,11 +571,11 @@
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
-      "BOTTOM": { "playRate": 0.724 },
+      "BOTTOM": { "playRate": 0.78 },
       "UTILITY": { "playRate": 0 }
     },
     "98": {
-      "TOP": { "playRate": 1.028 },
+      "TOP": { "playRate": 1.127 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
@@ -584,20 +584,20 @@
     "99": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
-      "MIDDLE": { "playRate": 2.164 },
+      "MIDDLE": { "playRate": 2.131 },
       "BOTTOM": { "playRate": 0 },
-      "UTILITY": { "playRate": 5.184 }
+      "UTILITY": { "playRate": 4.764 }
     },
     "101": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
-      "MIDDLE": { "playRate": 1.521 },
+      "MIDDLE": { "playRate": 1.78 },
       "BOTTOM": { "playRate": 0 },
-      "UTILITY": { "playRate": 2.808 }
+      "UTILITY": { "playRate": 2.735 }
     },
     "102": {
       "TOP": { "playRate": 0 },
-      "JUNGLE": { "playRate": 0.895 },
+      "JUNGLE": { "playRate": 0.941 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
@@ -605,13 +605,13 @@
     "103": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
-      "MIDDLE": { "playRate": 3.556 },
+      "MIDDLE": { "playRate": 3.735 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "104": {
       "TOP": { "playRate": 0 },
-      "JUNGLE": { "playRate": 6.225 },
+      "JUNGLE": { "playRate": 5.341 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
@@ -619,12 +619,12 @@
     "105": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
-      "MIDDLE": { "playRate": 2.338 },
+      "MIDDLE": { "playRate": 2.434 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "106": {
-      "TOP": { "playRate": 1.664 },
+      "TOP": { "playRate": 1.592 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
@@ -632,7 +632,7 @@
     },
     "107": {
       "TOP": { "playRate": 0 },
-      "JUNGLE": { "playRate": 1.319 },
+      "JUNGLE": { "playRate": 1.524 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
@@ -641,7 +641,7 @@
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
-      "BOTTOM": { "playRate": 1.695 },
+      "BOTTOM": { "playRate": 4.817 },
       "UTILITY": { "playRate": 0 }
     },
     "111": {
@@ -649,24 +649,24 @@
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
-      "UTILITY": { "playRate": 4.627 }
+      "UTILITY": { "playRate": 4.46 }
     },
     "112": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
-      "MIDDLE": { "playRate": 1.835 },
+      "MIDDLE": { "playRate": 1.815 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "113": {
       "TOP": { "playRate": 0 },
-      "JUNGLE": { "playRate": 1.527 },
+      "JUNGLE": { "playRate": 1.35 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "114": {
-      "TOP": { "playRate": 2.545 },
+      "TOP": { "playRate": 2.856 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
@@ -675,8 +675,8 @@
     "115": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
-      "MIDDLE": { "playRate": 1.329 },
-      "BOTTOM": { "playRate": 2.266 },
+      "MIDDLE": { "playRate": 0 },
+      "BOTTOM": { "playRate": 1.853 },
       "UTILITY": { "playRate": 0 }
     },
     "117": {
@@ -684,59 +684,59 @@
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
-      "UTILITY": { "playRate": 3.224 }
+      "UTILITY": { "playRate": 3.318 }
     },
     "119": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
-      "BOTTOM": { "playRate": 2.86 },
+      "BOTTOM": { "playRate": 3.038 },
       "UTILITY": { "playRate": 0 }
     },
     "120": {
       "TOP": { "playRate": 0 },
-      "JUNGLE": { "playRate": 2.107 },
+      "JUNGLE": { "playRate": 2.257 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "121": {
       "TOP": { "playRate": 0 },
-      "JUNGLE": { "playRate": 3.073 },
+      "JUNGLE": { "playRate": 3.412 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "122": {
-      "TOP": { "playRate": 4.583 },
+      "TOP": { "playRate": 3.716 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "126": {
-      "TOP": { "playRate": 2.28 },
+      "TOP": { "playRate": 2.548 },
       "JUNGLE": { "playRate": 0 },
-      "MIDDLE": { "playRate": 2.209 },
+      "MIDDLE": { "playRate": 1.996 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "127": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
-      "MIDDLE": { "playRate": 1.603 },
+      "MIDDLE": { "playRate": 1.528 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "131": {
       "TOP": { "playRate": 0 },
-      "JUNGLE": { "playRate": 2.162 },
+      "JUNGLE": { "playRate": 2.152 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "133": {
-      "TOP": { "playRate": 0.785 },
+      "TOP": { "playRate": 0.719 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
@@ -745,20 +745,20 @@
     "134": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
-      "MIDDLE": { "playRate": 4.208 },
+      "MIDDLE": { "playRate": 4.706 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "136": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
-      "MIDDLE": { "playRate": 1.698 },
+      "MIDDLE": { "playRate": 1.349 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "141": {
       "TOP": { "playRate": 0 },
-      "JUNGLE": { "playRate": 4.011 },
+      "JUNGLE": { "playRate": 5.662 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
@@ -766,7 +766,7 @@
     "142": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
-      "MIDDLE": { "playRate": 1.107 },
+      "MIDDLE": { "playRate": 1.279 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
@@ -775,13 +775,13 @@
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
-      "UTILITY": { "playRate": 2.29 }
+      "UTILITY": { "playRate": 2.482 }
     },
     "145": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
-      "BOTTOM": { "playRate": 10.898 },
+      "BOTTOM": { "playRate": 9.588 },
       "UTILITY": { "playRate": 0 }
     },
     "147": {
@@ -789,10 +789,10 @@
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
-      "UTILITY": { "playRate": 1.65 }
+      "UTILITY": { "playRate": 1.53 }
     },
     "150": {
-      "TOP": { "playRate": 1.597 },
+      "TOP": { "playRate": 1.552 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
@@ -800,16 +800,16 @@
     },
     "154": {
       "TOP": { "playRate": 0 },
-      "JUNGLE": { "playRate": 2.067 },
+      "JUNGLE": { "playRate": 1.688 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "157": {
-      "TOP": { "playRate": 1.237 },
+      "TOP": { "playRate": 1.101 },
       "JUNGLE": { "playRate": 0 },
-      "MIDDLE": { "playRate": 4.968 },
-      "BOTTOM": { "playRate": 1.275 },
+      "MIDDLE": { "playRate": 4.171 },
+      "BOTTOM": { "playRate": 1.106 },
       "UTILITY": { "playRate": 0 }
     },
     "161": {
@@ -817,17 +817,17 @@
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
-      "UTILITY": { "playRate": 0.804 }
+      "UTILITY": { "playRate": 1.014 }
     },
     "163": {
       "TOP": { "playRate": 0 },
-      "JUNGLE": { "playRate": 1.682 },
-      "MIDDLE": { "playRate": 1.138 },
+      "JUNGLE": { "playRate": 1.637 },
+      "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "164": {
-      "TOP": { "playRate": 2.072 },
+      "TOP": { "playRate": 2.058 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
@@ -836,13 +836,13 @@
     "166": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
-      "MIDDLE": { "playRate": 0.987 },
+      "MIDDLE": { "playRate": 1.01 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "200": {
       "TOP": { "playRate": 0 },
-      "JUNGLE": { "playRate": 1.434 },
+      "JUNGLE": { "playRate": 2.207 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
@@ -852,18 +852,18 @@
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
-      "UTILITY": { "playRate": 1.394 }
+      "UTILITY": { "playRate": 1.281 }
     },
     "202": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
-      "BOTTOM": { "playRate": 5.9 },
+      "BOTTOM": { "playRate": 7.062 },
       "UTILITY": { "playRate": 0 }
     },
     "203": {
       "TOP": { "playRate": 0 },
-      "JUNGLE": { "playRate": 1.248 },
+      "JUNGLE": { "playRate": 1.237 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
@@ -872,18 +872,18 @@
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
-      "BOTTOM": { "playRate": 1.599 },
+      "BOTTOM": { "playRate": 1.344 },
       "UTILITY": { "playRate": 0 }
     },
     "222": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
-      "BOTTOM": { "playRate": 8.163 },
+      "BOTTOM": { "playRate": 5.987 },
       "UTILITY": { "playRate": 0 }
     },
     "223": {
-      "TOP": { "playRate": 1.357 },
+      "TOP": { "playRate": 1.282 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
@@ -891,14 +891,14 @@
     },
     "233": {
       "TOP": { "playRate": 0 },
-      "JUNGLE": { "playRate": 4.886 },
+      "JUNGLE": { "playRate": 4.029 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "234": {
       "TOP": { "playRate": 0 },
-      "JUNGLE": { "playRate": 3.567 },
+      "JUNGLE": { "playRate": 3.584 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
@@ -908,24 +908,24 @@
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
-      "UTILITY": { "playRate": 6.277 }
+      "UTILITY": { "playRate": 6.415 }
     },
     "236": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
-      "BOTTOM": { "playRate": 3.266 },
+      "BOTTOM": { "playRate": 3.169 },
       "UTILITY": { "playRate": 0 }
     },
     "238": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
-      "MIDDLE": { "playRate": 4.585 },
+      "MIDDLE": { "playRate": 3.856 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "240": {
-      "TOP": { "playRate": 0.716 },
+      "TOP": { "playRate": 0.695 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
@@ -933,27 +933,27 @@
     },
     "245": {
       "TOP": { "playRate": 0 },
-      "JUNGLE": { "playRate": 2.607 },
-      "MIDDLE": { "playRate": 1.16 },
+      "JUNGLE": { "playRate": 2.576 },
+      "MIDDLE": { "playRate": 1.209 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "246": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
-      "MIDDLE": { "playRate": 1.097 },
+      "MIDDLE": { "playRate": 0.961 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "254": {
       "TOP": { "playRate": 0 },
-      "JUNGLE": { "playRate": 2.479 },
+      "JUNGLE": { "playRate": 2.565 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "266": {
-      "TOP": { "playRate": 4.807 },
+      "TOP": { "playRate": 7.061 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
@@ -964,12 +964,12 @@
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
-      "UTILITY": { "playRate": 3.191 }
+      "UTILITY": { "playRate": 2.858 }
     },
     "268": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
-      "MIDDLE": { "playRate": 2.004 },
+      "MIDDLE": { "playRate": 3.49 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
@@ -978,13 +978,13 @@
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
-      "UTILITY": { "playRate": 2.56 }
+      "UTILITY": { "playRate": 2.281 }
     },
     "360": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
-      "BOTTOM": { "playRate": 3.956 },
+      "BOTTOM": { "playRate": 3.989 },
       "UTILITY": { "playRate": 0 }
     },
     "412": {
@@ -992,10 +992,10 @@
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
-      "UTILITY": { "playRate": 7.254 }
+      "UTILITY": { "playRate": 6.895 }
     },
     "420": {
-      "TOP": { "playRate": 2.062 },
+      "TOP": { "playRate": 2.105 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
@@ -1003,14 +1003,14 @@
     },
     "421": {
       "TOP": { "playRate": 0 },
-      "JUNGLE": { "playRate": 0.546 },
+      "JUNGLE": { "playRate": 0.618 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "427": {
       "TOP": { "playRate": 0 },
-      "JUNGLE": { "playRate": 1.035 },
+      "JUNGLE": { "playRate": 1.135 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
@@ -1019,7 +1019,7 @@
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
-      "BOTTOM": { "playRate": 1.484 },
+      "BOTTOM": { "playRate": 2.405 },
       "UTILITY": { "playRate": 0 }
     },
     "432": {
@@ -1027,24 +1027,24 @@
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
-      "UTILITY": { "playRate": 1.972 }
+      "UTILITY": { "playRate": 2.923 }
     },
     "497": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
-      "UTILITY": { "playRate": 5.096 }
+      "UTILITY": { "playRate": 4.849 }
     },
     "498": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
-      "BOTTOM": { "playRate": 5.885 },
+      "BOTTOM": { "playRate": 4.849 },
       "UTILITY": { "playRate": 0 }
     },
     "516": {
-      "TOP": { "playRate": 1.837 },
+      "TOP": { "playRate": 1.896 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
@@ -1052,23 +1052,23 @@
     },
     "517": {
       "TOP": { "playRate": 0 },
-      "JUNGLE": { "playRate": 1.667 },
-      "MIDDLE": { "playRate": 4.696 },
+      "JUNGLE": { "playRate": 1.555 },
+      "MIDDLE": { "playRate": 5.087 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "518": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
-      "MIDDLE": { "playRate": 1.196 },
+      "MIDDLE": { "playRate": 1.284 },
       "BOTTOM": { "playRate": 0 },
-      "UTILITY": { "playRate": 1.245 }
+      "UTILITY": { "playRate": 1.213 }
     },
     "523": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
-      "BOTTOM": { "playRate": 3.412 },
+      "BOTTOM": { "playRate": 3.803 },
       "UTILITY": { "playRate": 0 }
     },
     "526": {
@@ -1076,31 +1076,31 @@
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
-      "UTILITY": { "playRate": 2.075 }
+      "UTILITY": { "playRate": 2.059 }
     },
     "555": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
-      "UTILITY": { "playRate": 3.609 }
+      "UTILITY": { "playRate": 3.6 }
     },
     "711": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
-      "MIDDLE": { "playRate": 1.76 },
+      "MIDDLE": { "playRate": 1.822 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "777": {
-      "TOP": { "playRate": 3.946 },
+      "TOP": { "playRate": 5.96 },
       "JUNGLE": { "playRate": 0 },
-      "MIDDLE": { "playRate": 4.568 },
+      "MIDDLE": { "playRate": 4.938 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "875": {
-      "TOP": { "playRate": 2.644 },
+      "TOP": { "playRate": 2.759 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
@@ -1108,13 +1108,13 @@
     },
     "876": {
       "TOP": { "playRate": 0 },
-      "JUNGLE": { "playRate": 2.296 },
+      "JUNGLE": { "playRate": 2.057 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     },
     "887": {
-      "TOP": { "playRate": 1.569 },
+      "TOP": { "playRate": 2.463 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
@@ -1125,17 +1125,17 @@
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
-      "UTILITY": { "playRate": 1.697 }
+      "UTILITY": { "playRate": 3.096 }
     },
     "895": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
-      "BOTTOM": { "playRate": 1.763 },
+      "BOTTOM": { "playRate": 1.378 },
       "UTILITY": { "playRate": 0 }
     },
     "897": {
-      "TOP": { "playRate": 4.909 },
+      "TOP": { "playRate": 3.772 },
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
@@ -1146,15 +1146,22 @@
       "JUNGLE": { "playRate": 0 },
       "MIDDLE": { "playRate": 0 },
       "BOTTOM": { "playRate": 0 },
-      "UTILITY": { "playRate": 2.404 }
+      "UTILITY": { "playRate": 2.506 }
+    },
+    "910": {
+      "TOP": { "playRate": 0 },
+      "JUNGLE": { "playRate": 0 },
+      "MIDDLE": { "playRate": 0.067 },
+      "BOTTOM": { "playRate": 0 },
+      "UTILITY": { "playRate": 0 }
     },
     "950": {
       "TOP": { "playRate": 0 },
       "JUNGLE": { "playRate": 0 },
-      "MIDDLE": { "playRate": 1.816 },
+      "MIDDLE": { "playRate": 1.296 },
       "BOTTOM": { "playRate": 0 },
       "UTILITY": { "playRate": 0 }
     }
   },
-  "patch": "13.22"
+  "patch": "13.24"
 }
