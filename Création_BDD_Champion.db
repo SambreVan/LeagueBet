@@ -33,11 +33,11 @@ CREATE TABLE champions (
     attackTotalTime_flat FLOAT,
     attackDelayOffset_flat FLOAT,
     attackRange_flat FLOAT,
-    roles TEXT[],
-    ability_p TEXT[],
-    ability_q TEXT[],
-    ability_w TEXT[],
-    ability_e TEXT[],
-    ability_r TEXT[],
+    roles VARCHAR(255)[],
+    ability_p VARCHAR(255)[],
+    ability_q VARCHAR(255)[],
+    ability_w VARCHAR(255)[],
+    ability_e VARCHAR(255)[],
+    ability_r VARCHAR(255)[],
     role VARCHAR(255)
 );
