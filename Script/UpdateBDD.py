@@ -73,8 +73,7 @@ for json_file in json_files:
 
         # Supprimez les champs de chaque compétence
         data["abilities"] = remove_name_from_abilities(data["abilities"])
-        print(data["abilities"])
-        exit()
+
         # Insérer les informations du champion
         for role in champion_roles:
             cur.execute(
