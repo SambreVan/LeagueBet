@@ -15,6 +15,19 @@ port = 35475
 json_folder_path = "Json/13.24.1"
 roles_file_path = "championrates.json"
 
+
+def remove_name_from_abilities(abilities):
+    for ability_type in abilities.values():
+        for ability in ability_type:
+            del ability["name"]
+            del ability["icon"]
+            for effect in ability.get("effects", []):
+                del effect["description"]
+            del ability["notes"]
+            del ability["blurb"]
+    return abilities
+
+
 # Lecture des postes des champions
 with open(roles_file_path, "r") as file:
     champions_data = json.load(file)
@@ -58,6 +71,10 @@ for json_file in json_files:
             if details["playRate"] >= play_rate_threshold
         ]
 
+        # Supprimez les champs de chaque compétence
+        data["abilities"] = remove_name_from_abilities(data["abilities"])
+        print(data["abilities"])
+        exit()
         # Insérer les informations du champion
         for role in champion_roles:
             cur.execute(
