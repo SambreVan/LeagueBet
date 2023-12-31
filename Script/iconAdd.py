@@ -26,7 +26,7 @@ os.makedirs("icons", exist_ok=True)
 # Fonction pour télécharger l'icône du champion
 def telecharger_icone_champion(champion_id):
     icone_url = f"{icons_base_url}/{champion_id}/hud/{champion_id}_circle.png"
-    icone_nom_fichier = os.path.join("icons", f"{champion_id}.png")
+    icone_nom_fichier = os.path.join("Script/icons", f"{champion_id}.png")
     reponse = requests.get(icone_url)
     if reponse.status_code == 200:
         with open(icone_nom_fichier, "wb") as icone_fichier:
