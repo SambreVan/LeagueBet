@@ -1,0 +1,1267 @@
+{
+    "id": 72,
+    "key": "Skarner",
+    "name": "Skarner",
+    "title": "the Crystal Vanguard",
+    "fullName": "",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/13.24.1/img/champion/Skarner.png",
+    "resource": "MANA",
+    "attackType": "MELEE",
+    "adaptiveType": "PHYSICAL_DAMAGE",
+    "stats": {
+        "health": {
+            "flat": 650,
+            "percent": 0.0,
+            "perLevel": 99,
+            "percentPerLevel": 0.0
+        },
+        "healthRegen": {
+            "flat": 9,
+            "percent": 0.0,
+            "perLevel": 0.85,
+            "percentPerLevel": 0.0
+        },
+        "mana": {
+            "flat": 320,
+            "percent": 0.0,
+            "perLevel": 60,
+            "percentPerLevel": 0.0
+        },
+        "manaRegen": {
+            "flat": 7.2,
+            "percent": 0.0,
+            "perLevel": 0.45,
+            "percentPerLevel": 0.0
+        },
+        "armor": {
+            "flat": 38,
+            "percent": 0.0,
+            "perLevel": 5,
+            "percentPerLevel": 0.0
+        },
+        "magicResistance": {
+            "flat": 32,
+            "percent": 0.0,
+            "perLevel": 2.05,
+            "percentPerLevel": 0.0
+        },
+        "attackDamage": {
+            "flat": 65,
+            "percent": 0.0,
+            "perLevel": 4.5,
+            "percentPerLevel": 0.0
+        },
+        "movespeed": {
+            "flat": 335,
+            "percent": 0.0,
+            "perLevel": 0.0,
+            "percentPerLevel": 0.0
+        },
+        "acquisitionRadius": {
+            "flat": 600,
+            "percent": 0.0,
+            "perLevel": 0.0,
+            "percentPerLevel": 0.0
+        },
+        "selectionRadius": {
+            "flat": 130,
+            "percent": 0.0,
+            "perLevel": 0.0,
+            "percentPerLevel": 0.0
+        },
+        "pathingRadius": {
+            "flat": 50,
+            "percent": 0.0,
+            "perLevel": 0.0,
+            "percentPerLevel": 0.0
+        },
+        "gameplayRadius": {
+            "flat": 80,
+            "percent": 0.0,
+            "perLevel": 0.0,
+            "percentPerLevel": 0.0
+        },
+        "criticalStrikeDamage": {
+            "flat": 200,
+            "percent": 0.0,
+            "perLevel": 0.0,
+            "percentPerLevel": 0.0
+        },
+        "criticalStrikeDamageModifier": {
+            "flat": 1.0,
+            "percent": 0.0,
+            "perLevel": 0.0,
+            "percentPerLevel": 0.0
+        },
+        "attackSpeed": {
+            "flat": 0.625,
+            "percent": 0.0,
+            "perLevel": 2.1,
+            "percentPerLevel": 0.0
+        },
+        "attackSpeedRatio": {
+            "flat": 0.625,
+            "percent": 0.0,
+            "perLevel": 0.0,
+            "percentPerLevel": 0.0
+        },
+        "attackCastTime": {
+            "flat": 0.3,
+            "percent": 0.0,
+            "perLevel": 0.0,
+            "percentPerLevel": 0.0
+        },
+        "attackTotalTime": {
+            "flat": 1.6,
+            "percent": 0.0,
+            "perLevel": 0.0,
+            "percentPerLevel": 0.0
+        },
+        "attackDelayOffset": {
+            "flat": -0.11999999731779,
+            "percent": 0.0,
+            "perLevel": 0.0,
+            "percentPerLevel": 0.0
+        },
+        "attackRange": {
+            "flat": 125,
+            "percent": 0.0,
+            "perLevel": 0,
+            "percentPerLevel": 0.0
+        },
+        "aramDamageTaken": {
+            "flat": 1.0,
+            "percent": 0.0,
+            "perLevel": 0.0,
+            "percentPerLevel": 0.0
+        },
+        "aramDamageDealt": {
+            "flat": 1.0,
+            "percent": 0.0,
+            "perLevel": 0.0,
+            "percentPerLevel": 0.0
+        },
+        "aramHealing": {
+            "flat": 1.0,
+            "percent": 0.0,
+            "perLevel": 0.0,
+            "percentPerLevel": 0.0
+        },
+        "aramShielding": {
+            "flat": 1.0,
+            "percent": 0.0,
+            "perLevel": 0.0,
+            "percentPerLevel": 0.0
+        },
+        "urfDamageTaken": {
+            "flat": 1.0,
+            "percent": 0.0,
+            "perLevel": 0.0,
+            "percentPerLevel": 0.0
+        },
+        "urfDamageDealt": {
+            "flat": 1.0,
+            "percent": 0.0,
+            "perLevel": 0.0,
+            "percentPerLevel": 0.0
+        },
+        "urfHealing": {
+            "flat": 1.0,
+            "percent": 0.0,
+            "perLevel": 0.0,
+            "percentPerLevel": 0.0
+        },
+        "urfShielding": {
+            "flat": 1.0,
+            "percent": 0.0,
+            "perLevel": 0.0,
+            "percentPerLevel": 0.0
+        }
+    },
+    "roles": [
+        "DIVER",
+        "FIGHTER",
+        "TANK"
+    ],
+    "attributeRatings": {
+        "damage": 1,
+        "toughness": 3,
+        "control": 3,
+        "mobility": 1,
+        "utility": 1,
+        "abilityReliance": 45,
+        "difficulty": 1
+    },
+    "abilities": {
+        "P": [
+            {
+                "name": "Crystal Spires",
+                "icon": "https://cdn.communitydragon.org/latest/champion/Skarner/ability-icon/p",
+                "effects": [
+                    {
+                        "description": "Innate: Skarner's presence spawns 6 Crystal Spires at set points across the battlefield:\nOne beside Baron Nashor's pit\nOne beside Dragon's pit\nOne near each of the camps for Blue Sentinel and Red Brambleback",
+                        "leveling": []
+                    },
+                    {
+                        "description": "After minions have spawned, a Crystal Spire can be captured by champions by standing on it for 2 seconds, Once captured, the Crystal Spire is owned by the team until contested, and the defending team can stand on the spire to prevent the opposing team from capturing it.",
+                        "leveling": []
+                    },
+                    {
+                        "description": "Capturing a Crystal Spire grants sight of its radius for 1.5 seconds and locks it out from capture for 15 seconds. Crystal Spires grant 30 split among its captors, or 15 for a single captor.",
+                        "leveling": []
+                    },
+                    {
+                        "description": "Skarner gains Crystal Charge while within range of a Crystal Spire controlled by his team, for 1.25 seconds after triggering Crystal Venom, and for 1.75 seconds after stinging an enemy champion with Impale.",
+                        "leveling": []
+                    },
+                    {
+                        "description": "Crystal Charge: Skarner gains 70 − 120 (based on level) bonus movement speed and 43% − 160% (based on level) bonus attack speed and restores 1% maximum mana every 0.5 seconds.",
+                        "leveling": []
+                    }
+                ],
+                "cost": null,
+                "cooldown": null,
+                "targeting": "Passive",
+                "affects": "Self",
+                "spellshieldable": null,
+                "resource": null,
+                "damageType": null,
+                "spellEffects": null,
+                "projectile": null,
+                "onHitEffects": null,
+                "occurrence": null,
+                "notes": "Crystal Charge's duration refreshes if it was gained by an ability.",
+                "blurb": "Innate:  Skarner's presence causes  Crystal Spires to spawn at set locations across the map that can be captured by both teams, which grants  gold upon capture. While he is near a Crystal Spire that is captured by his team, he gains Crystal Charge.",
+                "missileSpeed": null,
+                "rechargeRate": null,
+                "collisionRadius": null,
+                "tetherRadius": null,
+                "onTargetCdStatic": null,
+                "innerRadius": null,
+                "speed": null,
+                "width": null,
+                "angle": null,
+                "castTime": null,
+                "effectRadius": "1600",
+                "targetRange": null
+            }
+        ],
+        "Q": [
+            {
+                "name": "Crystal Slash",
+                "icon": "https://cdn.communitydragon.org/latest/champion/Skarner/ability-icon/q",
+                "effects": [
+                    {
+                        "description": "Active: Skarner slashes around himself, dealing physical damage to nearby enemies. If at least one enemy is hit, he becomes charged for 5 seconds, empowering subsequent casts of Crystal Slash to deal bonus magic damage.",
+                        "leveling": [
+                            {
+                                "attribute": "Physical Damage",
+                                "modifiers": [
+                                    {
+                                        "values": [
+                                            1,
+                                            1.5,
+                                            2,
+                                            2.5,
+                                            3
+                                        ],
+                                        "units": [
+                                            "% of target's maximum health",
+                                            "% of target's maximum health",
+                                            "% of target's maximum health",
+                                            "% of target's maximum health",
+                                            "% of target's maximum health"
+                                        ]
+                                    },
+                                    {
+                                        "values": [
+                                            20,
+                                            20,
+                                            20,
+                                            20,
+                                            20
+                                        ],
+                                        "units": [
+                                            "% AD",
+                                            "% AD",
+                                            "% AD",
+                                            "% AD",
+                                            "% AD"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "attribute": "Bonus Magic Damage",
+                                "modifiers": [
+                                    {
+                                        "values": [
+                                            1,
+                                            1.5,
+                                            2,
+                                            2.5,
+                                            3
+                                        ],
+                                        "units": [
+                                            "% of target's maximum health",
+                                            "% of target's maximum health",
+                                            "% of target's maximum health",
+                                            "% of target's maximum health",
+                                            "% of target's maximum health"
+                                        ]
+                                    },
+                                    {
+                                        "values": [
+                                            20,
+                                            20,
+                                            20,
+                                            20,
+                                            20
+                                        ],
+                                        "units": [
+                                            "% AD",
+                                            "% AD",
+                                            "% AD",
+                                            "% AD",
+                                            "% AD"
+                                        ]
+                                    },
+                                    {
+                                        "values": [
+                                            30,
+                                            30,
+                                            30,
+                                            30,
+                                            30
+                                        ],
+                                        "units": [
+                                            "% AP",
+                                            "% AP",
+                                            "% AP",
+                                            "% AP",
+                                            "% AP"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Each instance of damage is capped at 200 against epic monsters.",
+                        "leveling": []
+                    },
+                    {
+                        "description": "Basic attacks reduce Crystal Slash's current cooldown by 0.25 seconds, increased to 1 second against champions.",
+                        "leveling": []
+                    }
+                ],
+                "cost": {
+                    "modifiers": [
+                        {
+                            "values": [
+                                10,
+                                10,
+                                10,
+                                10,
+                                10
+                            ],
+                            "units": [
+                                "",
+                                "",
+                                "",
+                                "",
+                                ""
+                            ]
+                        }
+                    ]
+                },
+                "cooldown": {
+                    "modifiers": [
+                        {
+                            "values": [
+                                3.5,
+                                3.25,
+                                3,
+                                2.75,
+                                2.5
+                            ],
+                            "units": [
+                                "",
+                                "",
+                                "",
+                                "",
+                                ""
+                            ]
+                        }
+                    ],
+                    "affectedByCdr": true
+                },
+                "targeting": "Auto",
+                "affects": "Enemies, Self",
+                "spellshieldable": "Special",
+                "resource": "MANA",
+                "damageType": "MIXED_DAMAGE",
+                "spellEffects": "spellaoe",
+                "projectile": null,
+                "onHitEffects": null,
+                "occurrence": null,
+                "notes": "Spell shield will block the damage but will not prevent Skarner from triggering the bonus effect.\nBasic attacks against structures will not trigger the cooldown reduction.\nAs already noted, each damage instance is capped on its own, meaning that the maximum possible damage against an epic monster with one cast is 400.\nIn order to hit the cap, the target needs to have at least 20000 / 13334 / 10000 / 8000 / 6667 health (without considering the ratios).",
+                "blurb": "Active:  Skarner slashes around himself, dealing physical damage to nearby enemies based on their maximum health.",
+                "missileSpeed": null,
+                "rechargeRate": null,
+                "collisionRadius": null,
+                "tetherRadius": null,
+                "onTargetCdStatic": null,
+                "innerRadius": null,
+                "speed": null,
+                "width": null,
+                "angle": null,
+                "castTime": "none",
+                "effectRadius": "350",
+                "targetRange": null
+            }
+        ],
+        "W": [
+            {
+                "name": "Crystalline Exoskeleton",
+                "icon": "https://cdn.communitydragon.org/latest/champion/Skarner/ability-icon/w",
+                "effects": [
+                    {
+                        "description": "Active: Skarner grants himself a shield for up to 6 seconds, and while it holds, he gains bonus movement speed that doubles over the first 3 seconds.",
+                        "leveling": [
+                            {
+                                "attribute": "Shield Strength",
+                                "modifiers": [
+                                    {
+                                        "values": [
+                                            9,
+                                            10,
+                                            11,
+                                            12,
+                                            13
+                                        ],
+                                        "units": [
+                                            "% maximum health",
+                                            "% maximum health",
+                                            "% maximum health",
+                                            "% maximum health",
+                                            "% maximum health"
+                                        ]
+                                    },
+                                    {
+                                        "values": [
+                                            80,
+                                            80,
+                                            80,
+                                            80,
+                                            80
+                                        ],
+                                        "units": [
+                                            "% AP",
+                                            "% AP",
+                                            "% AP",
+                                            "% AP",
+                                            "% AP"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "attribute": "Bonus Movement Speed",
+                                "modifiers": [
+                                    {
+                                        "values": [
+                                            8,
+                                            10,
+                                            12,
+                                            14,
+                                            16
+                                        ],
+                                        "units": [
+                                            "%",
+                                            "%",
+                                            "%",
+                                            "%",
+                                            "%"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "attribute": "Increased Bonus Movement Speed",
+                                "modifiers": [
+                                    {
+                                        "values": [
+                                            16,
+                                            20,
+                                            24,
+                                            28,
+                                            32
+                                        ],
+                                        "units": [
+                                            "%",
+                                            "%",
+                                            "%",
+                                            "%",
+                                            "%"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "cost": {
+                    "modifiers": [
+                        {
+                            "values": [
+                                60,
+                                60,
+                                60,
+                                60,
+                                60
+                            ],
+                            "units": [
+                                "",
+                                "",
+                                "",
+                                "",
+                                ""
+                            ]
+                        }
+                    ]
+                },
+                "cooldown": {
+                    "modifiers": [
+                        {
+                            "values": [
+                                13,
+                                12.5,
+                                12,
+                                11.5,
+                                11
+                            ],
+                            "units": [
+                                "",
+                                "",
+                                "",
+                                "",
+                                ""
+                            ]
+                        }
+                    ],
+                    "affectedByCdr": true
+                },
+                "targeting": "Auto",
+                "affects": "Self",
+                "spellshieldable": null,
+                "resource": "MANA",
+                "damageType": null,
+                "spellEffects": "Shield",
+                "projectile": null,
+                "onHitEffects": null,
+                "occurrence": null,
+                "notes": null,
+                "blurb": "Active:  Skarner  shields himself based on his maximum health and gradually gains bonus  movement speed while it persists.",
+                "missileSpeed": null,
+                "rechargeRate": null,
+                "collisionRadius": null,
+                "tetherRadius": null,
+                "onTargetCdStatic": null,
+                "innerRadius": null,
+                "speed": null,
+                "width": null,
+                "angle": null,
+                "castTime": "none",
+                "effectRadius": null,
+                "targetRange": null
+            }
+        ],
+        "E": [
+            {
+                "name": "Fracture",
+                "icon": "https://cdn.communitydragon.org/latest/champion/Skarner/ability-icon/e",
+                "effects": [
+                    {
+                        "description": "Passive: Every time Skarner triggers Crystal Venom or stings an enemy with Impale, Fracture's current cooldown is reduced by the corresponding base duration of the disable.",
+                        "leveling": []
+                    },
+                    {
+                        "description": "Active: Skarner launches a blast of crystalline energy in the target direction that deals magic damage to enemies hit, slows them for 2.5 seconds, and marks them with Crystal Venom for 5 seconds.",
+                        "leveling": [
+                            {
+                                "attribute": "Magic Damage",
+                                "modifiers": [
+                                    {
+                                        "values": [
+                                            40,
+                                            65,
+                                            90,
+                                            115,
+                                            140
+                                        ],
+                                        "units": [
+                                            "",
+                                            "",
+                                            "",
+                                            "",
+                                            ""
+                                        ]
+                                    },
+                                    {
+                                        "values": [
+                                            20,
+                                            20,
+                                            20,
+                                            20,
+                                            20
+                                        ],
+                                        "units": [
+                                            "% AP",
+                                            "% AP",
+                                            "% AP",
+                                            "% AP",
+                                            "% AP"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "attribute": "Slow",
+                                "modifiers": [
+                                    {
+                                        "values": [
+                                            30,
+                                            35,
+                                            40,
+                                            45,
+                                            50
+                                        ],
+                                        "units": [
+                                            "%",
+                                            "%",
+                                            "%",
+                                            "%",
+                                            "%"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Crystal Venom: Skarner's next basic attack against a marked target is empowered to consume the mark to deal bonus physical damage and stun them for 1.25 seconds.",
+                        "leveling": [
+                            {
+                                "attribute": "Bonus Physical Damage",
+                                "modifiers": [
+                                    {
+                                        "values": [
+                                            30,
+                                            50,
+                                            70,
+                                            90,
+                                            110
+                                        ],
+                                        "units": [
+                                            "",
+                                            "",
+                                            "",
+                                            "",
+                                            ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "cost": {
+                    "modifiers": [
+                        {
+                            "values": [
+                                55,
+                                55,
+                                55,
+                                55,
+                                55
+                            ],
+                            "units": [
+                                "",
+                                "",
+                                "",
+                                "",
+                                ""
+                            ]
+                        }
+                    ]
+                },
+                "cooldown": {
+                    "modifiers": [
+                        {
+                            "values": [
+                                14,
+                                13.5,
+                                13,
+                                12.5,
+                                12
+                            ],
+                            "units": [
+                                "",
+                                "",
+                                "",
+                                "",
+                                ""
+                            ]
+                        }
+                    ],
+                    "affectedByCdr": true
+                },
+                "targeting": "Direction",
+                "affects": "Enemies",
+                "spellshieldable": "True",
+                "resource": "MANA",
+                "damageType": "MIXED_DAMAGE",
+                "spellEffects": "special",
+                "projectile": "TRUE",
+                "onHitEffects": null,
+                "occurrence": null,
+                "notes": "Fracture is disabled during  Impale.\nThis ability will cast from wherever the caster is at the start of the cast time.\nFracture's projectile deals  area damage, while the Crystal Venom on-hit effect deals  proc damage.\nCrystal Venom triggers even if the attack is  blocked ( stun applies), but not if it's  dodged or he is  Blind. The damage of the entire attack is negated in both cases.",
+                "blurb": "Passive: Whenever  Skarner triggers Crystal Venom or stings an enemy with  Impale, Fracture's cooldown will be  reduced by the  crowd control's duration.",
+                "missileSpeed": null,
+                "rechargeRate": null,
+                "collisionRadius": null,
+                "tetherRadius": null,
+                "onTargetCdStatic": null,
+                "innerRadius": null,
+                "speed": "1500",
+                "width": "140",
+                "angle": null,
+                "castTime": "0.25",
+                "effectRadius": null,
+                "targetRange": "1000"
+            }
+        ],
+        "R": [
+            {
+                "name": "Impale",
+                "icon": "https://cdn.communitydragon.org/latest/champion/Skarner/ability-icon/r",
+                "effects": [
+                    {
+                        "description": "Active: Skarner roots the target enemy champion over the cast time and attempts to impale them with his stinger. Upon impaling the target, he deals 60% AD physical damage plus magic damage and suppresses them for 1.75 seconds, during which they are revealed and Skarner can drag them with himself.\nAfterwards, the target takes the same damage again.",
+                        "leveling": [
+                            {
+                                "attribute": "Magic Damage",
+                                "modifiers": [
+                                    {
+                                        "values": [
+                                            20,
+                                            60,
+                                            100
+                                        ],
+                                        "units": [
+                                            "",
+                                            "",
+                                            ""
+                                        ]
+                                    },
+                                    {
+                                        "values": [
+                                            50,
+                                            50,
+                                            50
+                                        ],
+                                        "units": [
+                                            "% AP",
+                                            "% AP",
+                                            "% AP"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "attribute": "Total Mixed Damage",
+                                "modifiers": [
+                                    {
+                                        "values": [
+                                            40,
+                                            120,
+                                            200
+                                        ],
+                                        "units": [
+                                            "",
+                                            "",
+                                            ""
+                                        ]
+                                    },
+                                    {
+                                        "values": [
+                                            120,
+                                            120,
+                                            120
+                                        ],
+                                        "units": [
+                                            "% AD",
+                                            "% AD",
+                                            "% AD"
+                                        ]
+                                    },
+                                    {
+                                        "values": [
+                                            100,
+                                            100,
+                                            100
+                                        ],
+                                        "units": [
+                                            "% AP",
+                                            "% AP",
+                                            "% AP"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Impale's drag ignores displacement immunity. Skarner is unable to basic attack, cast Fracture, or use Flash during Impale.",
+                        "leveling": []
+                    }
+                ],
+                "cost": {
+                    "modifiers": [
+                        {
+                            "values": [
+                                100,
+                                100,
+                                100
+                            ],
+                            "units": [
+                                "",
+                                "",
+                                ""
+                            ]
+                        }
+                    ]
+                },
+                "cooldown": {
+                    "modifiers": [
+                        {
+                            "values": [
+                                120,
+                                100,
+                                80
+                            ],
+                            "units": [
+                                "",
+                                "",
+                                ""
+                            ]
+                        }
+                    ],
+                    "affectedByCdr": true
+                },
+                "targeting": "Unit",
+                "affects": "Enemies",
+                "spellshieldable": "True",
+                "resource": "MANA",
+                "damageType": "MIXED_DAMAGE",
+                "spellEffects": "spell",
+                "projectile": null,
+                "onHitEffects": null,
+                "occurrence": null,
+                "notes": "The target will not take Impale's secondary damage if the  suppression is removed before the duration ends.\nIf the target becomes  untargetable,  dies, or is too far away or no longer in  sight during the cast time, this ability will cancel but does not go on  cooldown nor pay its cost (if applicable).\nThe range cancel distance is 800 units.\n Spell shield will not block the  root.\nImpale is special cased to end prematurely if the target is affected by  Devour, both for an ally and enemy  Tahm Kench or if Skarner is teleported by  Realm Warp.\nImpale will not end prematurely if Skarner enters  resurrection.\nSkarner cannot use gates during Impale.\nWhile Impale is active, and for the purposes of direction-conditioned abilities, (e.g.  Petrifying Gaze,  Mocking Shout) Skarner is considered to be facing in the direction he is moving and not the one his model is facing.\nImpale applies a small displacement to the target every 0.25 seconds whenever they are not close to Skarner. These displacements do not apply  airborne and are not flagged as displacements, meaning that targets who are not  immune to the  suppression are also never immune to the displacement either. As a consequence,  displacement immunity fails to ignore this movement.\n\n\nType\n\nCast time\n\n\nAttacking\n\nDisabled\n\n\nAbilities\n\nDisabled\n\n\nMovement\n\nDisabled\n\n\nItems\n\nUsable\n\n Shurelya's Battlesong  Turbo Chemtank  Youmuu's Ghostblade  Gargoyle Stoneplate  Randuin's Omen\n\n\nDisabled\n\nAll the other item-actives are disabled\n\n\nInterrupted by\n\nN/A\n\n\nConsumables\n\nUsable\n\n\nSpells\n\nUsable\n\n Barrier  Clarity  Cleanse  Exhaust  Ghost  Heal  Ignite  Smite\n\n\nDisabled\n\n Flash  Teleport  Recall  Hexflash\n\n\nInterrupted by\n\nN/A\n\n\nInterrupted by\n\nDeath, unless protected by  Resurrection",
+                "blurb": "Active:  Skarner  roots the target enemy  champion and impales them with his stinger. Upon impaling the target, he deals physical damage and bonus magic damage and briefly  suppresses them, during which Skarner can drag them with himself.Afterwards, the target takes the same damage again.",
+                "missileSpeed": null,
+                "rechargeRate": null,
+                "collisionRadius": null,
+                "tetherRadius": null,
+                "onTargetCdStatic": null,
+                "innerRadius": null,
+                "speed": null,
+                "width": null,
+                "angle": null,
+                "castTime": "0.25",
+                "effectRadius": null,
+                "targetRange": "350"
+            }
+        ]
+    },
+    "releaseDate": "2011-08-09",
+    "releasePatch": "1.0.0.123",
+    "patchLastChanged": "13.4",
+    "price": {
+        "blueEssence": 4800,
+        "rp": 880,
+        "saleRp": 0
+    },
+    "lore": "Skarner is an immense crystalline scorpion from a hidden valley in Shurima. Part of the ancient Brackern race, Skarner and his kin are known for their great wisdom and deep connection to the land, as their souls are fused with powerful life crystals which hold the living thoughts and memories of their ancestors. In an age long past, the Brackern entered hibernation to avoid untold magical destruction, but recent, threatening events have roused Skarner. As the only Brackern awake, he strives to protect his kind from those who seek to harm them.",
+    "faction": "shurima",
+    "skins": [
+        {
+            "name": "Original",
+            "id": 72000,
+            "isBase": true,
+            "availability": "Available",
+            "formatName": "Original",
+            "lootEligible": true,
+            "cost": 880,
+            "sale": 0,
+            "distribution": null,
+            "rarity": "NoRarity",
+            "chromas": [],
+            "lore": "Skarner is an immense crystalline scorpion from a hidden valley in Shurima. Part of the ancient Brackern race, Skarner and his kin are known for their great wisdom and deep connection to the land, as their souls are fused with powerful life crystals which hold the living thoughts and memories of their ancestors. In an age long past, the Brackern entered hibernation to avoid untold magical destruction, but recent, threatening events have roused Skarner. As the only Brackern awake, he strives to protect his kind from those who seek to harm them.",
+            "release": "2011-08-09",
+            "set": [],
+            "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/72/72000.jpg",
+            "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/72/72000.jpg",
+            "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/72/72000.jpg",
+            "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/skarner/skins/base/skarnerloadscreen.jpg",
+            "loadScreenVintagePath": null,
+            "newEffects": false,
+            "newAnimations": false,
+            "newRecall": false,
+            "newVoice": false,
+            "newQuotes": false,
+            "voiceActor": [
+                "David Lodge"
+            ],
+            "splashArtist": [
+                "Wesley Keil"
+            ]
+        },
+        {
+            "name": "Sandscourge",
+            "id": 72001,
+            "isBase": false,
+            "availability": "Available",
+            "formatName": "Sandscourge",
+            "lootEligible": true,
+            "cost": 975,
+            "sale": 0,
+            "distribution": null,
+            "rarity": "NoRarity",
+            "chromas": [],
+            "lore": "Travelers seeking their fortune on the open prairie must take special care at night, when massive, carnivorous scorpions are lured by the flickering light of campfires. More than one caravan has been lost to the creatures, the bones of their passengers picked clean.",
+            "release": "2011-08-09",
+            "set": [
+                "High Noon"
+            ],
+            "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/72/72001.jpg",
+            "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/72/72001.jpg",
+            "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/72/72001.jpg",
+            "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/skarner/skins/skin01/skarnerloadscreen_1.jpg",
+            "loadScreenVintagePath": null,
+            "newEffects": true,
+            "newAnimations": false,
+            "newRecall": false,
+            "newVoice": false,
+            "newQuotes": false,
+            "voiceActor": [
+                "David Lodge"
+            ],
+            "splashArtist": []
+        },
+        {
+            "name": "Earthrune",
+            "id": 72002,
+            "isBase": false,
+            "availability": "Available",
+            "formatName": "Earthrune",
+            "lootEligible": true,
+            "cost": 520,
+            "sale": 0,
+            "distribution": null,
+            "rarity": "NoRarity",
+            "chromas": [],
+            "lore": null,
+            "release": "2011-08-09",
+            "set": [
+                "Legacy"
+            ],
+            "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/72/72002.jpg",
+            "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/72/72002.jpg",
+            "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/72/72002.jpg",
+            "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/skarner/skins/skin02/skarnerloadscreen_2.jpg",
+            "loadScreenVintagePath": null,
+            "newEffects": true,
+            "newAnimations": false,
+            "newRecall": false,
+            "newVoice": false,
+            "newQuotes": false,
+            "voiceActor": [
+                "David Lodge"
+            ],
+            "splashArtist": [
+                "Kienan 'Knockwurst' Lafferty"
+            ]
+        },
+        {
+            "name": "Battlecast Alpha",
+            "id": 72003,
+            "isBase": false,
+            "availability": "Available",
+            "formatName": "Battlecast Alpha",
+            "lootEligible": true,
+            "cost": 1820,
+            "sale": 0,
+            "distribution": null,
+            "rarity": "Legendary",
+            "chromas": [],
+            "lore": "An early prototype that would pave the way for the Battlecast machines, Alpha Skarner is possessed of an extreme rage not seen in later models. Perhaps the brain inside it wishes to inflict as much pain as it experiences—or maybe it just likes to kill things.",
+            "release": "2014-11-25",
+            "set": [
+                "Battlecast"
+            ],
+            "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/72/72003.jpg",
+            "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/72/72003.jpg",
+            "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/72/72003.jpg",
+            "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/skarner/skins/skin03/skarnerloadscreen_3.jpg",
+            "loadScreenVintagePath": null,
+            "newEffects": true,
+            "newAnimations": true,
+            "newRecall": true,
+            "newVoice": true,
+            "newQuotes": false,
+            "voiceActor": [],
+            "splashArtist": []
+        },
+        {
+            "name": "Guardian of the Sands",
+            "id": 72004,
+            "isBase": false,
+            "availability": "Available",
+            "formatName": "Guardian of the Sands",
+            "lootEligible": true,
+            "cost": 975,
+            "sale": 0,
+            "distribution": null,
+            "rarity": "NoRarity",
+            "chromas": [],
+            "lore": "Skarner, the gilded scorpion—ancient guardian of the sands, we invoke thee to protect us from an evil of our own making. Let no man tread upon these hallowed grounds, lest in your rage they are torn asunder.",
+            "release": "2015-04-26",
+            "set": [
+                "Guardian of the Sands"
+            ],
+            "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/72/72004.jpg",
+            "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/72/72004.jpg",
+            "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/72/72004.jpg",
+            "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/skarner/skins/skin04/skarnerloadscreen_4.jpg",
+            "loadScreenVintagePath": null,
+            "newEffects": true,
+            "newAnimations": true,
+            "newRecall": true,
+            "newVoice": false,
+            "newQuotes": false,
+            "voiceActor": [
+                "David Lodge"
+            ],
+            "splashArtist": [
+                "Sixmorevodka Studio"
+            ]
+        },
+        {
+            "name": "Cosmic Sting",
+            "id": 72005,
+            "isBase": false,
+            "availability": "Available",
+            "formatName": "Cosmic Sting",
+            "lootEligible": true,
+            "cost": 1350,
+            "sale": 0,
+            "distribution": null,
+            "rarity": "Epic",
+            "chromas": [
+                {
+                    "name": "Aquamarine",
+                    "id": 72007,
+                    "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/72/72007.png",
+                    "colors": [
+                        "#6ABBEE",
+                        "#6ABBEE"
+                    ],
+                    "descriptions": [
+                        {
+                            "description": null,
+                            "region": null
+                        }
+                    ],
+                    "rarities": [
+                        {
+                            "rarity": null,
+                            "region": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Citrine",
+                    "id": 72011,
+                    "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/72/72011.png",
+                    "colors": [
+                        "#DF9117",
+                        "#DF9117"
+                    ],
+                    "descriptions": [
+                        {
+                            "description": null,
+                            "region": null
+                        }
+                    ],
+                    "rarities": [
+                        {
+                            "rarity": null,
+                            "region": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Emerald",
+                    "id": 72013,
+                    "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/72/72013.png",
+                    "colors": [
+                        "#2DA130",
+                        "#2DA130"
+                    ],
+                    "descriptions": [
+                        {
+                            "description": null,
+                            "region": null
+                        }
+                    ],
+                    "rarities": [
+                        {
+                            "rarity": null,
+                            "region": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Obsidian",
+                    "id": 72012,
+                    "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/72/72012.png",
+                    "colors": [
+                        "#27211C",
+                        "#27211C"
+                    ],
+                    "descriptions": [
+                        {
+                            "description": null,
+                            "region": null
+                        }
+                    ],
+                    "rarities": [
+                        {
+                            "rarity": null,
+                            "region": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Rose Quartz",
+                    "id": 72010,
+                    "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/72/72010.png",
+                    "colors": [
+                        "#E58BA5",
+                        "#E58BA5"
+                    ],
+                    "descriptions": [
+                        {
+                            "description": null,
+                            "region": null
+                        }
+                    ],
+                    "rarities": [
+                        {
+                            "rarity": 1,
+                            "region": "TENCENT"
+                        }
+                    ]
+                },
+                {
+                    "name": "Ruby",
+                    "id": 72006,
+                    "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/72/72006.png",
+                    "colors": [
+                        "#D33528",
+                        "#D33528"
+                    ],
+                    "descriptions": [
+                        {
+                            "description": "This chroma was released as a bundle exclusive in 2020.",
+                            "region": "riot"
+                        }
+                    ],
+                    "rarities": [
+                        {
+                            "rarity": 1,
+                            "region": "riot"
+                        }
+                    ]
+                },
+                {
+                    "name": "Tanzanite",
+                    "id": 72009,
+                    "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/72/72009.png",
+                    "colors": [
+                        "#54209B",
+                        "#54209B"
+                    ],
+                    "descriptions": [
+                        {
+                            "description": null,
+                            "region": null
+                        }
+                    ],
+                    "rarities": [
+                        {
+                            "rarity": null,
+                            "region": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Turquoise",
+                    "id": 72008,
+                    "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/72/72008.png",
+                    "colors": [
+                        "#73BFBE",
+                        "#73BFBE"
+                    ],
+                    "descriptions": [
+                        {
+                            "description": null,
+                            "region": null
+                        }
+                    ],
+                    "rarities": [
+                        {
+                            "rarity": null,
+                            "region": null
+                        }
+                    ]
+                }
+            ],
+            "lore": "An ancient creature of deep, primal wisdoms from before the forming of the first galaxies, Skarner is composed of the very elements that are the building blocks of all the cosmos. His kind are the radiant antithesis of the ancient, squirming things that lurk in the deep darkness of space, and beyond it.",
+            "release": "2020-11-24",
+            "set": [
+                "Cosmic"
+            ],
+            "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/72/72005.jpg",
+            "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/72/72005.jpg",
+            "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/72/72005.jpg",
+            "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/skarner/skins/skin05/skarnerloadscreen_5.jpg",
+            "loadScreenVintagePath": null,
+            "newEffects": true,
+            "newAnimations": true,
+            "newRecall": true,
+            "newVoice": false,
+            "newQuotes": false,
+            "voiceActor": [
+                "David Lodge"
+            ],
+            "splashArtist": [
+                "Terence 'Terrylefruit' Cantal",
+                "West Studio"
+            ]
+        }
+    ]
+}
