@@ -1,5 +1,5 @@
 CREATE TABLE champions (
-    id INT PRIMARY KEY,
+    id SERIAL PRIMARY KEY,
     id_champ INT,
     key VARCHAR(255),
     name VARCHAR(255),
